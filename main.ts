@@ -1,0 +1,5 @@
+let WINDOWS_11 = sprites.create(assets.image`WINDOWS_`, SpriteKind.Player)
+let EVIL_WINDOWS = sprites.create(assets.image`EVIL-WINDOWS`, SpriteKind.Enemy)
+info.setLife(100)
+controller.moveSprite(WINDOWS_11, 100, 100)
+controller.moveSprite(EVIL_WINDOWS, 70, 50)
